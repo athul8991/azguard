@@ -14,7 +14,7 @@ postman
 
 ## Download
 
-Just clone it from here : 
+Just clone it from here : https://github.com/athul8991/azguard.git
 
 ## Installation
 
