@@ -41,7 +41,7 @@ select where you want to run
 do the works you want;
 
 ## Note
-i'll also upload my angular frontend here : 
+i'll also upload my angular frontend here : https://github.com/athul8991/azguard-client
 try it if you want.
 
 
