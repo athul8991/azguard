@@ -83,9 +83,9 @@ module.exports.downloadCsv = async (req,res)=>{
             if(response){
                 //console.log(path.join(__dirname,'../temp/todo.csv'));
                 // return res.attach(path.join(__dirname,'../temp/todo.csv'));
-                res.setHeader('Content-Type', 'application/octet-stream');
-                res.setHeader('Content-Disposition', 'attachment; filename=todo.csv');
-                fs.createReadStream(path.join(__dirname,'../temp/todo.csv')).pipe(res);
+                // res.setHeader('Content-Type', 'application/octet-stream');
+                // res.setHeader('Content-Disposition', 'attachment; filename=todo.csv');
+                // fs.createReadStream(path.join(__dirname,'../temp/todo.csv')).pipe(res);
             }else{
                 // return res.status(400).json(commonError.catchError("File error"));
                 throw "File error"
